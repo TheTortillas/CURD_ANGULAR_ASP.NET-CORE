@@ -1,0 +1,62 @@
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 lg:w-1/3">
+        <div
+          class="card h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative border-4 border-primary"
+        >
+          <h1
+            class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3"
+          >
+            Ingresar
+          </h1>
+          <p class="leading-relaxed mb-3">
+            Accede a tu cuenta para disfrutar de nuestros servicios.
+          </p>
+          <button mat-raised-button color="primary" routerLink="/auth/sign-in">
+            Ingresar
+          </button>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/3">
+        <div
+          class="card h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative border-4 border-primary"
+        >
+          <h1
+            class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3"
+          >
+            Crear cuenta
+          </h1>
+          <p class="leading-relaxed mb-3">
+            Regístrate para obtener una nueva cuenta y acceder a nuestros
+            servicios.
+          </p>
+          <button mat-raised-button color="accent" routerLink="/auth/sign-up">
+            Crear cuenta
+          </button>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/3">
+        <div
+          class="card h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative border-4 border-primary"
+        >
+          <h1
+            class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3"
+          >
+            Borrar cuenta
+          </h1>
+          <p class="leading-relaxed mb-3">
+            Elimina tu cuenta de manera permanente.
+          </p>
+          <button
+            mat-raised-button
+            color="warn"
+            routerLink="/auth/delete-account"
+          >
+            Borrar cuenta
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

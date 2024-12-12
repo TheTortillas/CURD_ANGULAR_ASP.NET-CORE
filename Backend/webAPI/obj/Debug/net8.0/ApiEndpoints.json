@@ -1,0 +1,74 @@
+[
+  {
+    "ContainingType": "webAPI.Controllers.UserManagementController",
+    "Method": "post",
+    "RelativePath": "api/UserManagement/deleteuser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usr",
+        "Type": "webAPI.dto.DeleteUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PostDeleteUser"
+  },
+  {
+    "ContainingType": "webAPI.Controllers.UserManagementController",
+    "Method": "post",
+    "RelativePath": "api/UserManagement/signin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usr",
+        "Type": "webAPI.dto.UserSignIn",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PostSignIn"
+  },
+  {
+    "ContainingType": "webAPI.Controllers.UserManagementController",
+    "Method": "post",
+    "RelativePath": "api/UserManagement/signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usr",
+        "Type": "webAPI.dto.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PostSignUp"
+  },
+  {
+    "ContainingType": "webAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[webAPI.WeatherForecast, webAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
